@@ -1,0 +1,18 @@
+{{ asset_add("theme.js", "theme::js/jquery.min.js") }}
+{{ asset_add("theme.js", "theme::js/jquery.scrolly.min.js") }}
+{{ asset_add("theme.js", "theme::js/jquery.dropotron.min.js") }}
+{{ asset_add("theme.js", "theme::js/jquery.scrollex.min.js") }}
+{{ asset_add("theme.js", "theme::js/skel.min.js") }}
+{{ asset_add("theme.js", "theme::js/util.js") }}
+
+<!--[if lte IE 8]>
+{{ asset_add("theme.js", "theme::js/ie/respond.min.js") }}
+<![endif]-->
+
+{{ asset_add("theme.js", "theme::js/main.js") }}
+
+{{ asset_script("theme.js") }}
+
+{% for script in asset_scripts("scripts.js") %}
+    {{ script|raw }}
+{% endfor %}

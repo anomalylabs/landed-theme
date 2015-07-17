@@ -1,0 +1,36 @@
+{
+    "name": "anomaly/landed-theme",
+    "type": "streams-addon",
+    "description": "A dark, slick, modern, responsive, adjective-drenched theme by HTML5 UP!",
+    "keywords": [
+        "streams theme",
+        "streams addon",
+        "HTML5 UP theme",
+        "theme"
+    ],
+    "homepage": "http://anomaly.is/",
+    "version": "1.0.0",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "AnomalyLabs, Inc.",
+            "email": "hello@anomaly.is",
+            "homepage": "http://anomaly.is/",
+            "role": "Owner"
+        }
+    ],
+    "support": {
+        "email": "support@anomaly.is"
+    },
+    "autoload": {
+        "psr-4": {
+            "Anomaly\\LandedTheme\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    },
+    "minimum-stability": "dev"
+}
